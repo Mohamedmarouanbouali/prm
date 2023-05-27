@@ -21,7 +21,7 @@ public class Categori {
 	
 	@Column(name="name")
 	String name;
-	
+	//
 	@OneToMany(mappedBy = "Produit")
 	List<Produit> produits;
 
