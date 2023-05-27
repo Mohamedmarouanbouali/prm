@@ -65,6 +65,7 @@ private float weight;
 	@ToString.Include
 private String address;
 	
+
 	@OneToMany(mappedBy="user",fetch=FetchType.LAZY)
 private List<commande> commandes;
 
